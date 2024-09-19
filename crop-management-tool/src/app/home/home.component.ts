@@ -18,21 +18,23 @@ import { RouterModule } from '@angular/router';
         </mat-select>
       </mat-form-field>
       <mat-form-field>
-        <mat-label>Select State</mat-label>
+        <mat-label>Select Region</mat-label>
         <mat-select>
-          <mat-option value="state1">State 1</mat-option>
-          <mat-option value="state2">State 2</mat-option>
-          <mat-option value="state3">State 3</mat-option>
+          <mat-option value="state1">Maharashtra</mat-option>
+          <mat-option value="state2">Gujarat</mat-option>
+          <mat-option value="state3">Telanagana</mat-option>
+          <mat-option value="state4">Andhra Pradesh</mat-option>
+          <mat-option value="state5">Madhya Pradesh</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field>
+      <!-- <mat-form-field>
         <mat-label>Select Region</mat-label>
         <mat-select>
           <mat-option value="region1">Region 1</mat-option>
           <mat-option value="region2">Region 2</mat-option>
           <mat-option value="region3">Region 3</mat-option>
         </mat-select>
-      </mat-form-field>
+      </mat-form-field> -->
       <button mat-raised-button color="primary" routerLink="/farmer-registration">Submit</button>
     </div>
   `,

@@ -35,15 +35,15 @@ import { Component } from '@angular/core';
   styles: [`
     .container {
       display: flex;
-      flex-direction: row;
-      padding: 30px;
+      flex-direction: column;
+      padding: 20px;
       background-color: #8BC34A;
       border-radius: 8px;
     }
     .info-section {
       background-color: #689F38;
       padding: 30px;
-      margin-right: 20px;
+      margin-top: 20px;
       border-radius: 8px;
     }
     h3 {

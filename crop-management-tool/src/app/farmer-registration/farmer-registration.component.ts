@@ -28,9 +28,11 @@ import { RouterModule } from '@angular/router';
         <mat-form-field>
           <mat-label>Select Crop Stage</mat-label>
           <mat-select>
-            <mat-option value="stage1">Stage 1</mat-option>
-            <mat-option value="stage2">Stage 2</mat-option>
-            <mat-option value="stage3">Stage 3</mat-option>
+            <mat-option value="stage1">Germination</mat-option>
+            <mat-option value="stage2">Seed Strengthening</mat-option>
+            <mat-option value="stage3">Leaf Growth</mat-option>
+            <mat-option value="stage4">Flowering</mat-option>
+            <mat-option value="stage5">Cotton Ready</mat-option>
           </mat-select>
         </mat-form-field>
         <button mat-raised-button color="primary" routerLink="/crop-info">Register</button>

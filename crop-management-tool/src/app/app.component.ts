@@ -13,13 +13,13 @@ import {LanguageService} from './services/language.service'
   template: `
     <div class="app-container">
       <mat-toolbar color="primary" class="app-toolbar">
-        <img src="assets/logo.png" height="24">
-        <span>CropGuard</span>
+      <img src="assets/logo.png" alt="CropGuard Logo" class="logo" height="45">
+        <span>  CropGuard</span>
         <span class="spacer"></span>
         <button mat-button routerLink="/">Home</button>
-        <button mat-button routerLink="/service">Service</button>
-        <button mat-button routerLink="https://kisansuvidha.gov.in">Kisan Suvidha</button>
-        <button mat-button routerLink="https://pmkisan.gov.in">PM Kisan Samman Nidhi</button>
+        <button mat-button routerLink="/crop-info">Service</button>
+        <a mat-button href="https://kisansuvidha.gov.in" target="_blank">Kisan Suvidha</a>
+        <a mat-button href="https://pmkisan.gov.in" target="_blank">PM Kisan Samman Nidhi</a>
         <button mat-button routerLink="/contactUs">Contact us</button>
         <mat-select [(ngModel)]="selectedLanguage" (selectionChange)="changeLanguage()" class="language-select">
           <mat-option value="en">English</mat-option>
@@ -44,9 +44,9 @@ import {LanguageService} from './services/language.service'
       opacity: 75%;
       border-radius: 10px;
       max-width: full;
-      margin-left: 250px;
-      margin-right: 250px;
-      margin-top: 20px;
+      margin-left: 300px;
+      margin-right: 300px;
+      margin-top: 35px;
     }
     .app-toolbar {
       position: fixed;
